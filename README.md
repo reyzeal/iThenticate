@@ -21,7 +21,7 @@ Once the installation is completed, simply use the library with:
 ```php
 use bsobbe\ithenticate\Ithenticate;
 ```
-You will be able to use the library by creating instace of the ```Ithenticate``` class, make sure you pass your iThenticate API **username** and **password** to the constructor (You might need SSL to connect to the API):
+You will be able to use the library by creating an instance of the ```Ithenticate``` class, make sure you pass your iThenticate API **username** and **password** to the constructor (You might need SSL to connect to the API):
 ```php
 $ithenticate = new Ithenticate("Your username", "Your password");
 ```
@@ -47,4 +47,4 @@ $result = $ithenticate->submitDocument(
 ### Contribute
 Feel free to **contribute** and add new methods based on ithenticate's [API Guide](http://www.ithenticate.com/hs-fs/hub/92785/file-1383985272-pdf/iTh_documentation/iThenticate_API_Manual.pdf?t=1488585417195) 
 
-Add method usage instructions in ReadMe.md
+Add method usage instructions in `ReadMe.md`
